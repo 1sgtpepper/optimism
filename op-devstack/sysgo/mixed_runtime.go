@@ -230,7 +230,6 @@ func NewMixedSingleChainRuntime(t devtest.T, cfg MixedSingleChainPresetConfig) *
 				IsSequencer:   spec.IsSequencer,
 				NoDiscovery:   true,
 				EnableReqResp: true,
-				UseReqResp:    true,
 				DependencySet: depSet,
 			})
 		case MixedL2CLKona:
